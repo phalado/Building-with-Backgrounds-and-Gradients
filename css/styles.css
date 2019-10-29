@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Here our code starts*/
+
+nav{
+    background: linear-gradient(#808080 50%, #666 0 100%);
+    height: 36px;
+    top: calc(18px + 65px);
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-align: left;
+}
+
+nav ul{
+    display: flex;
+    table-layout: fixed;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+nav li{
+    display: table-cell;
+    width: 100%;
+
+    /*border-color: black;*/
+}
+
+nav li a{
+    width: auto;
+    display: block;
+    float: none;
+    text-decoration: none;
+}
+
+.list{
+    border: 1px solid white;
+    background: url(../images/globalnav-text.png)   ;
+    border-image-source: url(../images/border-image.png);
+    border-width: 0 2px 0 2px;
+    width: 104px;
+    height: 36px;
+/*    border-width: 0 1px 0 1px;
+    border: solid;*/
+}
+
+.apple{
+    background-position: 50% -2%;
+}
+
+.store{
+    background-position: 50% 13%;
+}
+
+.mac{
+    background-position: 50% 145%;
+}
+
+.ipod{
+    background-position: 50% 160%;
+}
+
+.iphone{
+    background-position: 50% 175%;
+}
+
+.ipad{
+    background-position: 50% 189%;
+}
+
+.itunnes{
+    background-position: 50% 204%;
+}
+
+.support{
+    background-position: 50% 219%;
+}
+
+.search{
+    background-image: none;
+}
