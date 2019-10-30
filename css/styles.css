@@ -75,8 +75,6 @@ nav ul{
 nav li{
     display: table-cell;
     width: 100%;
-
-    /*border-color: black;*/
 }
 
 nav li a{
@@ -241,7 +239,7 @@ footer{
     position: absolute;
     top: 738px;
     color: #6e6e6e;
-    font-size: .8334em;
+    font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     line-height: 1.2;
     right: 0;
     bottom: 0;
@@ -250,32 +248,34 @@ footer{
 
 footer div{
     width: 980px;
-    height: 85px;
+    height: 54px;
     margin: 0 auto;
-    padding: 13px 0 35px 0;
+    padding: 10px 0 26px 0;
 }
 
 footer div p{
     float: left;
     width: 49%;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 a{
     color: #08c;
+    text-decoration: none;
 }
 
 .footer-list{
+    display: flex;
     float: right;
     width: 51%;
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: right;
 }
 
 .footer-list li{
     display: inline-flex;
-    margin-left: 8px;
-    padding-left: 8px;
+    margin-left: 6px;
+    padding-left: 6px;
     border-left: 1px solid #ccc;
 }
 
@@ -286,10 +286,10 @@ a{
 }
 
 .footer-list img{
-    position: relative;
+    position: absolute;
 }
 
 .priv-poly{
-    margin: 0 8px;
+    margin: 0 6px;
     border: 0.5px solid #ccc;
 }
