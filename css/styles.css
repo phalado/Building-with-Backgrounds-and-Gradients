@@ -16,280 +16,283 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*Here our code starts*/
 
 nav{
-    background: linear-gradient(#808080 50%, #666 0 100%);
-    height: 36px;
-    top: calc(18px + 65px);
-    margin: 0 auto;
-    position: relative;
-    width: 980px;
-    border-radius: 4px;
-    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    text-align: left;
-    z-index: 1000;
+  background: linear-gradient(#808080 50%, #666 0 100%);
+  height: 36px;
+  top: calc(18px + 65px);
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  text-align: left;
+  z-index: 1000;
 }
 
 nav ul{
-    display: flex;
-    table-layout: fixed;
-    position: relative;
-    height: 100%;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  table-layout: fixed;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  align-items: center;
 }
 
 nav li{
-    display: table-cell;
-    width: 100%;
+  display: table-cell;
+  width: 100%;
 }
 
 nav li a{
-    width: auto;
-    display: block;
-    border-style: solid;
+  width: auto;
+  display: block;
+  border-style: solid;
 }
 
 nav li form{
-    display: initial;
+  display: initial;
 }
 
 nav li form input{
-    background-color: transparent;
-    width: 86px;
-    height: 19px;
-    padding: 2px 18px 1px 22px;
-    border-radius: 12px;
+  background-color: transparent;
+  width: 86px;
+  height: 19px;
+  padding: 2px 18px 1px 22px;
+  border-radius: 12px;
 }
 
 form div{
-    position: absolute;
-    background-image: url(../images/magnify.png);
-    width: 13px;
-    height: 14px;
-    top: calc(50% - 7px);
-    right: 76px;
+  position: absolute;
+  background-image: url(../images/magnify.png);
+  width: 13px;
+  height: 14px;
+  top: calc(50% - 7px);
+  right: 76px;
 }
 
 .list{
-    background: url(../images/globalnav-text.png);
-    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 2;
-    border-width: 0 2px 0 3px;
-    width: 104px;
-    height: 36px;
+  background: url(../images/globalnav-text.png);
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 2;
+  border-width: 0 2px 0 3px;
+  width: 104px;
+  height: 36px;
 }
 
 .apple{
-    background-position: 50% -2%;
+  background-position: 50% -2%;
 }
 
 .store{
-    background-position: 50% 13%;
+  background-position: 50% 13%;
 }
 
 .mac{
-    background-position: 50% 145%;
+  background-position: 50% 145%;
 }
 
 .ipod{
-    background-position: 50% 160%;
+  background-position: 50% 160%;
 }
 
 .iphone{
-    background-position: 50% 175%;
+  background-position: 50% 175%;
 }
 
 .ipad{
-    background-position: 50% 189%;
+  background-position: 50% 189%;
 }
 
 .itunnes{
-    background-position: 50% 204%;
+  background-position: 50% 204%;
 }
 
 .support{
-    background-position: 50% 219%;
+  background-position: 50% 219%;
 }
 
 .search{
-    background-image: none;
-    border-width: 0 0 0 3px;
+  background-image: none;
+  border-width: 0 0 0 3px;
 }
 
 main{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    height: 538px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: calc(100% - 290px);
 
 }
 
 main div{
-    position: absolute;
-    background: url(../images/your_verse_hero_2x.jpg)  50% 100% no-repeat;
-    background-size: 1440px 1315px;
-    right: auto;
-    left: 50%;
-    margin-left: -720px;
-    width: 1440px;
-    height: 538px;
+  position: absolute;
+  background: url(../images/your_verse_hero_2x.jpg)  50% 100% no-repeat;
+  background-size: 1440px 1315px;
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  width: 1440px;
+  height: 100%;
 }
 
 main div header{
-    margin: 149px 0 50px 0;
+  margin: 149px 0 50px 0;
 
 }
 
 .tittle{
-    display: flex;
-    margin:0 auto;
+  display: flex;
+  margin:0 auto;
 }
 
 .big{
-    margin-bottom: -9px;
+  margin-bottom: -9px;
 }
 
 .medium{
-    margin-bottom: 27px;
+  margin-bottom: 27px;
 }
 
 .small-container{
-    width: 980px;
-    height: 32px;
-    overflow: hidden;
+  width: 980px;
+  height: 32px;
+  overflow: hidden;
 }
 
 .small{
-    size: 50%;
-    width: 980px;
-    height: 64px;
+  size: 50%;
+  width: 980px;
+  height: 64px;
 }
 
 aside{
-    position: absolute;
-    top: 538px;
-    bottom: 90px;
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
+  position: absolute;
+  top: calc(100% - 290px);
+  bottom: 90px;
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  overflow: hidden;
+  width: 1440px;
+  height: 200px;
 }
 
 aside ul{
-    display: flex;
+  display: flex;
 }
 
 aside ul li{
-    position: relative;
-    width: 25%;
-    height: 200px;
+  position: relative;
+  width: 25%;
+  height: 200px;
 }
 
 aside ul li a{
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 aside ul li a img{
-    position: absolute;
-    left: 50%;
-    margin-left: -182px;
+  position: absolute;
+  left: 50%;
+  margin-left: -182px;
 }
 
 footer{
-    position: absolute;
-    top: 738px;
-    color: #6e6e6e;
-    font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    line-height: 1.2;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  top: calc(100% - 90px);
+  color: #6e6e6e;
+  font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.2;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 footer div{
-    width: 980px;
-    height: 54px;
-    margin: 0 auto;
-    padding: 10px 0 26px 0;
+  width: 980px;
+  height: 54px;
+  margin: 0 auto;
+  padding: 10px 0 26px 0;
 }
 
 footer div p{
-    float: left;
-    width: 49%;
-    padding-top: 15px;
+  float: left;
+  width: 49%;
+  padding-top: 15px;
 }
 
 a{
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 .footer-list{
-    display: flex;
-    float: right;
-    width: 51%;
-    padding-top: 15px;
-    text-align: right;
+  display: flex;
+  float: right;
+  width: 51%;
+  padding-top: 15px;
+  text-align: right;
 }
 
 .footer-list li{
-    display: inline-flex;
-    margin-left: 6px;
-    padding-left: 6px;
-    border-left: 1px solid #ccc;
+  display: inline-flex;
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid #ccc;
 }
 
 .footer-list li:first-child{
-    margin-left: 0;
-    padding-left: 0;
-    border-left: none;
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
 }
 
 .footer-list img{
-    position: absolute;
+  position: absolute;
 }
 
 .priv-poly{
-    margin: 0 6px;
-    border: 0.5px solid #ccc;
+  margin: 0 6px;
+  border: 0.5px solid #ccc;
 }
